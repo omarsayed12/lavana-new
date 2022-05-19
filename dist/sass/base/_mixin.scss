@@ -1,0 +1,15 @@
+@mixin transisionElement($tran) {
+    -webkit-transition: $tran;
+    -moz-transition: $tran;
+    -o-transition: $tran;
+    -ms-transition: $tran;
+    transition: $tran;
+  }
+
+  @mixin transformElment($property) {
+    -webkit-transform: $property;
+    -moz-transform: $property;
+    -o-transform: $property;
+    -ms-transform: $property;
+    transform: $property;
+  }
